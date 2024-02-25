@@ -23,37 +23,37 @@ Solusi:
 Kaidah ini menyatakan bahwa untuk seluruh operasi biner, letak dari operand dapat dibolak balik. Dalam kata lain, selama kedua operand masih dioperasikan oleh satu operator yang sama, maka letaknya didalam persamaan aljabar linear tidak berpengaruh kepada hasilnya.
 Contoh:\
 [A.B = B.A]\
-[A+B = B+A]\
+[A+B = B+A]
 
 2. Kaidah Asosiatif
 Kaidah ini menyatakan bahwa urutan dilakukannya operasi pada sederet operand tidaklah berpengaruh apabila seluruh operatornya sama.
 Contoh:\
 [(A.B).C = A.(B.C)]\
-[(A+B)+C = A+(B+C)]\
+[(A+B)+C = A+(B+C)]
 
 3. Kaidah Distributif
 Kaidah ini menyatakan bahwa operasi dapat "disebar" ke beberapa term yang dipengaruhinya.
 Contoh:\
 [A.(B+C) = (A.B)+(A.C)]\
-[A+(B.C) = (A+B).(A+C)]\
+[A+(B.C) = (A+B).(A+C)]
 
 4. Kaidah AND
 Kaidah ini berlaku pada operasi AND\
 [A.0 = 0]\
 [A.1 = A]\
 [A.A = A]\
-[A.!A = 0]\
+[A.!A = 0]
 
 5. Kaidah OR
 Kaidah ini berlaku pada operasi OR\
 [A+0 = A]\
 [A+1 = 1]\
 [A+A = A]\
-[A+!A = 1]\
+[A+!A = 1]
 
 6. Kaidah Invers
 Kaidah ini menyatakan bahwa inversi ganda pada satu variabel menghasilkan nilai yang sama dengan variabel itu sendiri.\
-[!!A = A]\
+[!!A = A]
 
 
 
@@ -137,18 +137,18 @@ Berikut ini adalah langkah yang harus dilakukan untuk mengkonversi bilangan bine
 ## Permasalahan 5
 Ubahlah bilangan desimal di bawah ini menjadi bilangan biner, sertakan langkah-langkahnya! \
 a. 15\
-b. 27\
+b. 27
 
 Solusi:
 a. \
 15 / 2 = 7 || 15 % 2 = 1\
 7 / 2 = 3 || 7 % 2 = 1\
 3 / 2 = 1	|| 3 % 2 = 1\
-Hasil => 1111\
+Hasil => 1111
 
 b.\
 27 / 2 = 13 || 27 % 2 = 1\
 13 / 2 = 6 || 13 % 2 = 1\
 6 / 2 = 3 || 6 % 2 = 0\
 3 / 2 = 1 || 3 % 2 = 1\
-Hasil=> 11011\
+Hasil=> 11011
