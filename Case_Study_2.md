@@ -1,3 +1,4 @@
+
 # Case Study Modul 2
 #### Muhammad Pirel Jenar Lubdhaka
 #### 2306226681
@@ -102,3 +103,17 @@ Dari Persamaan diatas dapat dilihat bahwa Lampu (O3) akan memerlukan 3 gerbang l
 Maka, setelah penyederhanaan, dibutuhkan 2 gerbang OR, 0 gerbang AND, dan 2 gerbang NOT.
 
 Mengasumsikan IC yang digunakan adalah yang dari seri 74xx, maka diperlukan 1 IC7432, dan 1 IC 7404, dengan total 2 IC.
+
+
+
+## Permasalahan 4
+Berikan analisa terhadap percobaan yang telah dilakukan!
+
+Solusi:
+
+Analisa akan dilakukan sesuai dengan alur perakitannya.
+
+1. Tegangan 5 Volt dihubungkan dengan _Power Strips_ terdalam, sementara Ground dihubungkan dengan _Power Strips_ terluar. Pada kasus ini, sumber dari Gnd dan Vcc adalah board _Arduino Uno_. Bagian ini berfungsi sebagai Voltage Driver utama dan Ground Utama dari rangkaian.
+2. IC 7432 dan IC 7404 dipasang pada _divider_ board. Satu sisi chip akan terhubung dengan _Terminal Strips_ bawah, dan sisi lainnya akan terhubung dengan _Terminal Chips_ atas. Konstruksi seperti ini berfungsi untuk memberikan akses besar terhadap keseluruh 14 pin dari kedua IC tersebut.
+3. Untuk setiap IC, sambungkan pin 7 dengan Gnd dan pin 14 dengan Vcc (5 V) tanpa resistansi apa apa. Sambungan ini berfungsi untuk menjalankan IC sehingga logika NOT dan OR dapat dijalankan. Sudah imperatif bahwa Vcc harus stabil di 5 V, apabila tegangan kelebihan dapat menyebabkan malfungsi, apabila tegangan kekurangan gerbang logika tidak akan berjalan.
+4. 
