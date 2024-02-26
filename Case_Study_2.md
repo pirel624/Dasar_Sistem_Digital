@@ -29,3 +29,6 @@ O3 = !(B1 . B3) + B2 . !B3 **Prinsip Komplementasi 1**\
 O3 = !B1 + !B3 + B2 . !B3 **Prinsip De Morgan 2**\
 O3 = !B1 + !B3 . (1 + B2) **Prinsip Distribusi**\
 O3 = !B1 + !B3
+
+Berikut adalah foto dari rangkaian yang dibuat:
+![Foto Rangkaian](https://github.com/pirel624/Dasar_Sistem_Digital/blob/b9b18f623178ba6bb4e7cb833b4651ca65ac8aba/Foto%20Rangkaian.jpg)
