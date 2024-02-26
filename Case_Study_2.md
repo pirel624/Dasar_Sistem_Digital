@@ -27,6 +27,5 @@ O3 = !(B1 . (!B1 + B3)) + B2 . !B3 **Prinsip De Morgan 2**\
 O3 = !(B1 . !B1 + B1 . B3) + B2 . !B3 **Prinsip Distributif**\
 O3 = !(B1 . B3) + B2 . !B3 **Prinsip Komplementasi 1**\
 O3 = !B1 + !B3 + B2 . !B3 **Prinsip De Morgan 2**\
-O3 = !B1 + !B3 . (1 + B2) ** Prinsip Distribusi**\
+O3 = !B1 + !B3 . (1 + B2) **Prinsip Distribusi**\
 O3 = !B1 + !B3
-
