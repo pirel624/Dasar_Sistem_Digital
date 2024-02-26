@@ -32,3 +32,34 @@ O3 = !B1 + !B3
 
 Berikut adalah foto dari rangkaian yang dibuat:
 ![Foto Rangkaian](https://github.com/pirel624/Dasar_Sistem_Digital/blob/b9b18f623178ba6bb4e7cb833b4651ca65ac8aba/Foto%20Rangkaian.jpg)
+
+
+
+## Permasalahan 2
+Berdasarkan rangkaian yang telah dibuat, lengkapi tabel kebenaran berikut! 
+
+| Input 3 | Input 2 | Input 1 | Output 3 | Output 2 | Output 1 |
+|---------|---------|---------|----------|----------|----------|
+| 0       | 0       | 0       |          |          |          |
+| 0       | 0       | 1       |          |          |          |
+| 0       | 1       | 0       |          |          |          |
+| 0       | 1       | 1       |          |          |          |
+| 1       | 0       | 0       |          |          |          |
+| 1       | 0       | 1       |          |          |          |
+| 1       | 1       | 0       |          |          |          |
+| 1       | 1       | 1       |          |          |          |
+
+Solusi:
+
+
+| Input 3 | Input 2 | Input 1 | Output 3 | Output 2 | Output 1 |
+|---------|---------|---------|----------|----------|----------|
+| 0       | 0       | 0       | 1        | 0        | 0        |
+| 0       | 0       | 1       | 1        | 0        | 1        |
+| 0       | 1       | 0       | 1        | 0        | 1        |
+| 0       | 1       | 1       | 1        | 0        | 1        |
+| 1       | 0       | 0       | 1        | 1        | 0        |
+| 1       | 0       | 1       | 0        | 1        | 1        |
+| 1       | 1       | 0       | 1        | 1        | 1        |
+| 1       | 1       | 1       | 0        | 1        | 1        |
+
