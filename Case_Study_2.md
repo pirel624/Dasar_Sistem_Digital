@@ -32,6 +32,9 @@ O3 = !B1 + !B3
 
 Berikut adalah foto dari rangkaian yang dibuat:
 ![Foto Rangkaian](https://github.com/pirel624/Dasar_Sistem_Digital/blob/b9b18f623178ba6bb4e7cb833b4651ca65ac8aba/Foto%20Rangkaian.jpg)
+![Gambar Rangkaian](https://github.com/pirel624/Dasar_Sistem_Digital/blob/9b2731da984bb2196a5440b05625652931d8dd00/Gambar%20Rangkaian.png)
+
+[Link Tinkercad](https://www.tinkercad.com/things/aPLK7aeoMgD-pirel-2306226681-cs2)
 
 
 
@@ -131,7 +134,7 @@ Buatlah kesimpulan terhadap keseluruhan praktikum dalam bentuk poin-poin!
 Solusi:
 
 1. Pada dasarnya, gerbang AND dapat disubstitusi apabila didapati gerbang NOT dan gerbang OR.
-2. SEDERHANAKAN LOGIKA/ALJABAR BOOLEAN. Penyederhanaan dapat mengurangi banyak gerbang logika dan IC yang diperlukan. Dalam konteks komersil, hal ini dapat mengurangi harga manufaktur chip dan harga operasionalnya (Semakin sedikit komponen >> Semakin kecil konsumsi daya >> Semakin rendah biaya operasional).
+2. Sederhanakan logika/aljabar boolean. Penyederhanaan dapat mengurangi banyak gerbang logika dan IC yang diperlukan. Dalam konteks komersil, hal ini dapat mengurangi harga manufaktur chip dan harga operasionalnya.
 3. Prinsip De Morgan dan Negasi Ganda adalah dua prinsip yang paling berguna saat menyederhanakan aljabar boolean.
 4. Ada banyak IC pengganti untuk kebutuhan yang sama, dengan model yang berbeda dan manufakturer yang berbeda. Bacalah datasheet dari setiap komponen yang digunakan.
 
