@@ -25,8 +25,11 @@ Sum of Product adalah bentuk ekspresi aljabar boolean dimana produk dari literal
 Product of Sum adalah kebalikannya, dimana literal literal awalnya di ORkan terlebih dahulu, lalu hasilnya saling di ANDkan.
 
 Berikut adalah contoh dari bentuk Sum of Product:
+
 ![Sum of Product](https://media.geeksforgeeks.org/wp-content/uploads/20230828155742/SOP-image.png)
+
 Berikut adalah contoh dari bentuk Product of Sum:
+
 ![Product of Sum](https://www.electronics-lab.com/wp-content/uploads/2022/04/eq2.png)
 
 Sum of Minterm pada dasarnya adalah sama dengan Sum of Products, hanya saja banyak literalnya tidak melebihi banyak variabel.
@@ -36,4 +39,3 @@ Product of Maxterm pada dasarnya adalah sama dengan Product of Sum, hanya saja b
 Kedua bentuk tersebut pada dasarnya adalah penyederhanaan dari konsep Sum of Products dan Products of Sum. Bentuk sederhana ini paling sering digunakan sebagai tahap pertama dalam memetakan tabel kebenaran menjadi ekspresi boolean. Bentuk sederhana ini disebut juga sebagai **Bentuk Kanonik**.
 
 ![Bentuk Kanonik](https://media.geeksforgeeks.org/wp-content/uploads/11-3.jpg)
-
