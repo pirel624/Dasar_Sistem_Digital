@@ -138,6 +138,18 @@ Contoh:
 
 
 ## Permasalahan 6
+Jelaskan kaidah penggunaan kondisi don’t care (x) dalam K-map.
+
+Solusi:
+
+![Dont Care Condition in a K-Map](https://www.allaboutcircuits.com/uploads/articles/logic-function-desired-output.jpg)
+
+Pertama, untuk perlu ditentukan deretan input yang seperti apa saja yang menghasilkan kondisi Dont Care. Sebagai contoh, pada Binary Coded Decimal, panjang input yang digunakan adalah 4 digit (Excess-3), yang berarti walau hanya 10 dari kombinasi yang terdefinisi outputnya, ada total 16 kombinasi. Maka 6 kombinasi tersebut berkondisikan Dont Care.
+
+Apabila sudah ditentukan input seperti apa saja yang bersifat Dont Care, tentukan indexnya, lalu daftarkan pada Kernaugh Map dalam bentuk "x". Sel "x" ini dapat dianggap bernilai 1 atau 0. Hal ini berguna pada tahap pengelompokkan K-Map. apabila satu grup sel-sel 1 mengalami disparitas/perlubangan kecil, dan ternyata lubang-lubang tersebut berupa sel "x"/ sel Dont Care, maka anggap saja sel tersebut sebagai sel 1. Tujuan dari pemanfaatan sifat ini adalah untuk memudahkan pengelompokkan dan penyederhanaan.
+
+
+
 
 
 
