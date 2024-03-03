@@ -150,6 +150,18 @@ Apabila sudah ditentukan input seperti apa saja yang bersifat Dont Care, tentuka
 
 
 
+## Referensi
+1. “Don’t Care Condition - Javatpoint,” _www.javatpoint.com_. https://www.javatpoint.com/dont-care-condition-in-k-map-in-digital-electronics#:~:text=The%20%22Don
+2. “Boolean Functions(SOP,POS forms),” _Electronics Hub_, Aug. 07, 2015. https://www.electronicshub.org/boolean-logic-sop-form-pos-form/
+3. “What are the essential prime implicants?,” _philosophy-question.com_. https://philosophy-question.com/library/lecture/read/207320-what-are-the-essential-prime-implicants (accessed Mar. 03, 2024).
+4. “Canonical and Standard Form,” _GeeksforGeeks_, Oct. 25, 2017. https://www.geeksforgeeks.org/canonical-and-standard-form/
+
+
+
+
+
+
+
 
 
 
