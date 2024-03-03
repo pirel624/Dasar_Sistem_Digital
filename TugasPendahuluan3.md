@@ -69,5 +69,76 @@ Kegunaan dari Kernaugh Map adalah untuk mengoptimisasi ekspresi logika yang perl
 
 
 ## Permasalahan 4
+Jelaskan yang dimaksud dengan prime implicants dan essential prime implicants, serta jelaskan perbedaannya!
+
+Solusi:
+Untuk menjelaskan prime implicant, kita akan kembali kepada Kernaugh Map.
+
+Masukan awal dari Kernaugh Map adalah ekspresi aljabar linear berbentuk kanonik. Setelah diterapkan Kernaugh Map, maka ekspresi tersebut tersederhanakan menjadi bentuk yang paling sederhana dari ekspresi tersebut. Ekspresi yang sederhana ini berbentu Sum of Products, dimana ada beberapa suku yang saling di ORkan, dimana tiap suku merupakan operasi AND dari beberapa variabel.
+
+Suku suku tersebut adalah _Prime Implicant_, dikatakan seperti itu karena bentuknya yang paling dasar dan unik. Setiap _Prime Implicant_ merupakan hasil penyederhanaan dari beberapa suku pada bentuk kanonik. Apabila _Implicant_ hanya berupa hasil penyederhanaan dari satu suku dari bentuk kanonik, maka _Implicant_ tersebut dikatakan sebagai _Essential Prime Implicant_.
+
+![Implicant From K-Map](https://cdn1.byjus.com/wp-content/uploads/2022/05/word-image263.png)
+
+
+
+## Permasalahan 5
+Jelaskan cara menyederhanakan persamaan 3 dan 4 variable menggunakan K-Map!
+
+Solusi:
+
+Pertama, ubah persamaan tersebut menjadi bentuk Sum of Products.
+
+Lalu, sederhanakan menjadi bentuk Sum of Minterm.
+
+Kemudian, indexkan bentuk SoM tersebut.
+Setiap suku dari bentuk SoM akan mengeluarkan nilai TRUE apabila variabel inputnya bernilai tertentu, yang apabila dideretkan menjadi sederet digit biner, akan menghasilkan satu nilai, satu index. Setiap suku memiliki indexnya masing-masing. Oleh sebab itu, ekspresi tersebut dapat diwakilkan dengan index indexnya saja
+
+![Indexed Canonical Form](https://www.electronicshub.org/wp-content/uploads/2015/08/Table-for-2n-min-terms-and-amx-terms.jpg)
+
+Jika sudah, catat index mana saja yang digunakan untuk merepresentasikan bentuk kanonik tersebut. Catatlah, nanti akan digunakan saat pemetaan K-Map
+
+Lalu siapkan Kernaugh Mapnya. 
+Untuk 3 Variabel, 2 variabel paling insignifikan akan mewakili kolomnya. Sedangkan Variabel paling signifikan akan mewakili barisnya. Atur letak digit-digit dari variabel tersebut sesuai dengan prinsip Gray Code, agar setiap iterasi dari kolom atau baris hanya akan menghasilkan satu perubahan digit saja.
+
+Untuk 4 variabel, langkahnya mirip. 2 variabel paling insignifikan akan mewakili kolomnya, sedangkan 2 variabel paling signifikan akan mewakili barisnya.
+
+Berikut adalag K-Map untuk 4 variabel ABCD:
+
+![4 Var K-Map Construction](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/K-map_minterms_A.svg/1280px-K-map_minterms_A.svg.png)
+
+Apabila K-Map sudah dibuat, saatnya mengisi tiap sel.
+
+Untuk setiap sel, tentukan nilai variabel yang berkorespondensi, lalu tentukan indexnya. Untuk referensi, lihat gambar di atas. Jika sudah, acu lah persamaan bentuk index yang telah dibuat. Apabila index pada sel ini ada pada persamaan tersebut, maka isi 1, jika tidak ada isi 0.
+
+Lakukan untuk semua sel.
+
+Jika sudah, grupkan sel-sel yang bernilai 1, dengan syarat:
+
+1. Grup berbentuk persegi/persegi panjang.
+2. Grup memiliki luas 1 sel, 2 sel, 4 sel, 8 sel, 16 sel, dst (2 pangkat).
+3. Grup boleh saling berhimpit dengan grup lain.
+4. Grup tidak memiliki sel 0
+
+Lalu, catat grup yang terbentuk.
+
+Jika sudah, berikut adalah prosedur untuk menerjemahkan grup tersebut:
+
+1. Pada grup tersebut, cek apakah nilai variabel berubah, jika nilai variabel berubah, maka variabel tersebut di nihilkan/tidak dianggap.
+2. Jika nilai variabel tetap, dengan nilai HIGH, maka catatlah variabel tersebut.
+3. Jika nilai variabel tetap, dengan nilai LOW, maka catatlah komplemen dari variabel tersebut.
+4. Lalu, buat produk dari variabel-variabel tersebut, sertakan informasi komplemennya.
+5. Voila ! anda telah mendapatkan 1 _Prime Implicant_ dari ekspresi awal.
+6. Ulangi untuk setiap grup, tentukan _Prime Implicant_ nya, lalu sumkan/ORkan.
+
+Contoh:
+
+![Kernaugh Implicant](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/K-map_6%2C8%2C9%2C10%2C11%2C12%2C13%2C14_don%27t_care.svg/800px-K-map_6%2C8%2C9%2C10%2C11%2C12%2C13%2C14_don%27t_care.svg.png)
+
+
+
+## Permasalahan 6
+
+
 
 
