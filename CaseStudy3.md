@@ -168,5 +168,9 @@ Solusi:
 
 Kesimpulan terbesar yang dapat kami ambil adalah bahwa K-Map adalah alat yang sangat berguna untuk menyederhanakan bentuk kanonik dari ekspresi boolean. Case Study ini mirip dengan Case Study 2, hanya saja kali ini kami menyederhanakan ekspresi boolean dengan menggunakan K-Map, dengan lebih mudah dan lebih cepat.
 
+1. K-Map adalah alat analisis aljabar boolean yang sangat efisien
+2. K-Map sering kali adalah alat yang paling optimal untuk menyederhakankan ekspresi boolean
+3. Debugging pada setiap tahap perangkain sangatlah penting, agar tidak terjadi seperti pada kami.
+
 
 
