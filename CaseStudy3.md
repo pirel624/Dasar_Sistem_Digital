@@ -93,6 +93,32 @@ Apabila sudah didapatkan kelompok-kelompoknya, buatlah termnya berdasarkan syara
 
 Kelompok @:
 
+1. Ada perubahan pada A2, abaikan
+2. Tidak ada perubahan pada A1, bernilai 0, A1'
+3. Tidak ada perubahan pada A0, bernilai 0, A0'
+4. Minterm -> A1'A0'
+
+Kelompok $:
+
+1. Tidak ada perubahan pada A2, bernilai 1, A2
+2. Ada perubahan pada A1, abaikan
+3. Ada perubahan pada A0, abaikan
+4. Minterm -> A2
+
+Kelompok %:
+
+1. Tidak ada perubahan pada A2, bernilai 0, A2'
+2. Ada perubahan pada A1, abaikan
+3. Tidak ada perubahan pada A0, bernilai 0, A0'
+4. Minterm -> A2'A0'
+
+Hasil:
+```
+F = A1'A0' + A2 + A2'A0'
+F = A0'(A1' + A2') + A2
+```
+
+
 
 
 
