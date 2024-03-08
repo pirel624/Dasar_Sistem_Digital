@@ -23,7 +23,7 @@ Lengkapi tabel kebenaran (truth table) berikut sesuai logika yang terdapat pada 
 
 Solusi:
 
-| E | O | I1 | I2 | C |
+| E | O | I0 | I1 | C |
 |---|---|----|----|---|
 | 0 | 0 | 0  | 0  | 0 |
 | 0 | 0 | 0  | 1  | 0 |
@@ -102,6 +102,26 @@ F = E'OI1 + EO'I1'
 Buatlah rangkaian berdasarkan persamaan yang diperoleh melalui K-map! Sertakan foto rangkaian dan link Tinkercad!
 
 Solusi:
+
+Berikut adalah gambar dari rangkaian yang telah dibuat:
+
+![Raw](https://github.com/pirel624/Dasar_Sistem_Digital/blob/22d6989b5cd0ed1a96b5cac05f1af19d84e88f91/TugasTambahan1RawCircuit.png)
+
+\
+
+![Diagram](https://github.com/pirel624/Dasar_Sistem_Digital/blob/22d6989b5cd0ed1a96b5cac05f1af19d84e88f91/TugasTambahan1DiagramCircuit.png)
+
+Berikut adalah link dari project TinkerCad tersebut:
+
+[TinkerCad Pirel](https://www.tinkercad.com/things/3SM00f29YXs-tt1-pirel-2306226681)
+
+
+
+## Permasalahan 4
+
+Solusi:
+
+
 
 
 
