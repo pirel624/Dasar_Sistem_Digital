@@ -23,7 +23,7 @@ Rangkaian kombinasi adalah ragkaian yang mengintegrasikan lebih dari satu gerban
 
 Gambar:
 
-![2 bit adder](https://www.researchgate.net/profile/Alex-Yakovlev/publication/228946850/figure/fig2/AS:669418044547085@1536613107398/Example-original-single-rail-circuit-2-bit-adder.png)
+![2 bit adder](https://eng.libretexts.org/@api/deki/files/41933/2_bit_full_adder_circuit.png?revision=1&size=bestfit&width=654&height=789)
 
 
 
@@ -68,7 +68,6 @@ Pada Proteus buatlah rangkaian menggunakan gerbang logika kompleks dengan formul
 - F(A, B, C, D) = (AB + CD)*BC + BD
 
 Solusi:
-
 
 
 
