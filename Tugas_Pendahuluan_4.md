@@ -69,6 +69,8 @@ Pada Proteus buatlah rangkaian menggunakan gerbang logika kompleks dengan formul
 
 Solusi:
 
+![Rangkaian 5,1](https://github.com/pirel624/Dasar_Sistem_Digital/blob/f8fdc7d7a7e41e460320bd068023a65de7f54ddd/TT4_Rangkaian_5%2C1.png)
+
 
 
 
