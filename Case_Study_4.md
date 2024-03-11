@@ -107,6 +107,6 @@ Solusi:
 
 Berikut adalah skema rangkaian yang dibuat telah dibuat pada proteus:
 
-![Proteus_1](https://github.com/pirel624/Dasar_Sistem_Digital/blob/c5dd29d8ddbab07e503c81dc293d787dd701eb04/Case%20Study%204_Elementary%20Digital%20System.BMP)
+![Proteus_1](https://github.com/pirel624/Dasar_Sistem_Digital/blob/cf2130bd64ae931bcd34f7a549ab07aa9007391e/Case%20Study%204_Elementary%20Digital%20System.BMP)
 
 
