@@ -110,3 +110,22 @@ Berikut adalah skema rangkaian yang dibuat telah dibuat pada proteus:
 ![Proteus_1](https://github.com/pirel624/Dasar_Sistem_Digital/blob/cf2130bd64ae931bcd34f7a549ab07aa9007391e/Case%20Study%204_Elementary%20Digital%20System.BMP)
 
 
+
+## Permasalahan 4
+Suatu ketika IC yang ingin kalian gunakan habis, dan kalian hanya memiliki IC NAND, NOR, XOR, dan XNOR. Bagaimana cara kalian menyelesaikan masalah tersebut? Buatlah rangkaian menggunakan IC tersebut pada Proteus! **TIDAK DIPERKENANKAN MENGGUNAKAN IC NOT!**
+
+Solusi:
+
+Berikut adalah rangkaian substitusi, hanya dengan menggunakan IC NAND:
+
+![Proteus_NAND](https://github.com/pirel624/Dasar_Sistem_Digital/blob/d68bbae354045a54de2d2e3a999f551b0f313841/Case%20Study%204_Elementary%20Digital%20System%202.bmp)
+
+
+
+## Permasalahan 5
+
+
+
+
+
+
