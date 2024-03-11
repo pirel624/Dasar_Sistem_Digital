@@ -123,9 +123,45 @@ Berikut adalah rangkaian substitusi, hanya dengan menggunakan IC NAND:
 
 
 ## Permasalahan 5
+Berikan analisis dari rangkaian yang telah kalian buat!
+
+Solusi:
+
+Pertama, mari kita lihat bentuk dari ekspresi aljabar boolean yang mewakili logika dari rangkaian tersebut:
+
+```
+F = BCD' + D
+```
+
+Ekspresi tersebut ada dalam bentuk Sums of Products. Dalam bentuk ini, kita dapat secara sistematis melakukan operasi dengan tahap: inversi (NOT), irisan (AND), dan gabungan (OR).
+
+Pada rangkaian yang saya buat, komponen yang paling kiri merupakan kolom hex inverter 7404. Bagian ini berfungsi untuk mendapatkan nilai komplement dari setiap input A, B, C, dan D.
+
+Berikutnya, pada bagian tengah, terdapat gerbang AND 7408. Bagian ini berfungsi untuk mengolah output dari bagian kiri menjadi output-output sesuai dengan minterm yang ada (dalam kasus ini, BCD' dan D). Untuk kemudahan, saya harusnya menggunakan satu gerbang AND dengan tiga input untuk mengakomodasi sinyal B, C, dan D'. Tetapi sayangnya saya tak dapat menemukan gerbang tersebut. Oleh karena itu saya substitusi dengan 2 gerbang AND input ganda, dengan output gerbang pertama dihubungkan dengan salah satu input gerbang kedua.
+
+Bagian terakhir, yang paling kanan, terdapat satu gerbang OR. Gerbang ini berguna untuk menSUMkan produk produk yang dihasilkan oleh gerbang-gerbang AND yang ada di bagian tengah rangkaian. Dalam kasus ini, input satu dari gerbang OR adalah BCD' dan input duanya adalah D.
+
+Output dari gerbang OR adalah output dari keseluruhan sistem logika yang diminta. Untuk mengindikasikan nilainya, output ini dihubungkan dengan LED dan resistor 1000 Ohms. Resistor berguna untuk memecah tegangan sehingga LED tidak terbakar.
 
 
 
+## Permasalahan 6
+Berikan analisis dari rangkaian yang menggunakan **gerbang kombinasional & universal** yang telah kalian buat!
 
+Solusi:
+
+Analisis yang dapat diambil dari rangkaian yang ini hanyalah bahwa setiap gerbang dari rangkaian awal telah disubstitusi dengan ekuivalen versi NANDnya.
+
+
+
+## Permasalaahan 7
+Berikan kesimpulan dari praktikum hari ini!
+
+Solusi:
+
+1. Dalam keadaan dimana tidak terdapat suatu gerbang logika, maka dapat disubstitusikan dengan gerbang universal atau gerbang kombinasi.
+2. Gerbang universal dapat digunakan secara total untuk mengstreamline proses desain dan produksi.
+3. Truth Table penting untuk didapatkan dengan benar dan akurat nilainya. Rancangan dapat melenceng dari keinginan apabila Truth Table memiliki kesalahan.
+4. Alat alat simulasi dan diagnostik seperti Proteus memiliki peran besar dalam memudahakan proses desain dan debugging rancangan. Ada baiknya alat alat ini dikuasai.
 
 
