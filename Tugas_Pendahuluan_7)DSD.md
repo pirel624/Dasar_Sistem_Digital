@@ -122,6 +122,23 @@ Berikut adalah Truth Table dari HALF ADDER:
 | 1                | 1             | 0   | 1     |
 ```
 
+Berikut adalah Truth Table dari HALF SUBSTRACTOR:
+```markdown
+| YANG_DIKURANGI | YANG_MENGURANGI | DIFFERENCE | BORROW |
+|----------------|-----------------|------------|--------|
+| 0              | 0               | 0          | 0      |
+| 0              | 1               | 1          | 1      |
+| 1              | 0               | 1          | 0      |
+| 1              | 1               | 0          | 0      |
+```
+
+
+
+## Referensi
+
+1. “Half Adder in Digital Logic,” _GeeksforGeeks_, Aug. 03, 2015. https://www.geeksforgeeks.org/half-adder-in-digital-logic/
+2. “Half Subtractor in Digital Logic,” _GeeksforGeeks_, Aug. 05, 2015. https://www.geeksforgeeks.org/half-subtractor-in-digital-logic/
+3. “Ripple-Carry Adder - an overview | ScienceDirect Topics,” _www.sciencedirect.com_. https://www.sciencedirect.com/topics/computer-science/ripple-carry-adder
 
 
 
