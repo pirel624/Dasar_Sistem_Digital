@@ -93,6 +93,34 @@ dan seterusnya.
 
 
 ## Permasalahan 4
+Apa itu ripple carry adder dan ripple borrow subtractor? Jelaskan!
+
+Solusi:
+Untuk menjelaskannya, mari kita bayangkan deretan HALF ADDER yang tadi disinggung pada permasalaghan 1. Pada dasarnya, setiap HALF ADDER pada rangkaian FULL ADDER akan memiliki satu input yang berasal dari CARRY HALF ADDER sebelumnya. Fenomena ini, dimana nilai overflow, nilai CARRY, dilemparkan ke HALF ADDER berikutnya disebut dengan efek RIPPLE CARRY.
+
+RIPPLE CARRY ADDER pada dasarnya adalah FULL ADDER yang mana salah satu input pada bit _Least Significant_ nya merupakan RIPPLE CARRY dari FULL ADDER lainnya. Secara efek, RIPPLE CARRY ADDER berfungsi untuk mengekstensi _bus size_ dari ADDER yang akan dibuat.
+
+RIPPLE BORROW SUBSTRACTOR juga bekerja seperti prinsip ini.
+
+
+
+## Permasalahan 5
+Gambarkan rangkaian half adder dan half subtractor (dalam bentuk gerbang logika sederhana) serta truth table-nya!
+
+Solusi:
+
+Berikut adalah gambar dari rangkaian yang telah saya buat:
+![Image_Circuit](https://github.com/pirel624/Dasar_Sistem_Digital/blob/8d0c6454cd7bf6d63f0e81114db2c00e6018c25d/HALF_ADDER_SUBSTRACTOR_CIRCUIT.png)
+
+Berikut adalah Truth Table dari HALF ADDER:
+```markdown
+| YANG_DITAMBAHKAN | YANG_MENAMBAH | SUM | CARRY |
+|------------------|---------------|-----|-------|
+| 0                | 0             | 0   | 0     |
+| 0                | 1             | 1   | 0     |
+| 1                | 0             | 1   | 0     |
+| 1                | 1             | 0   | 1     |
+```
 
 
 
