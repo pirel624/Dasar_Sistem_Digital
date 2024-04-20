@@ -62,10 +62,37 @@ Berikut contohnya.
 
 Apabila CARRY dari HALF ADDER 1 dihubungkan dengan YANG_DITAMBAHKAN dari HALF ADDER 2, maka overflow dari input bit pertama dapat ditangani oleh operasi pada bit kedua. Dan apabila CARRY dari HALF ADDER 2 dihubungkan dengan YANG_DITAMBAH dari HALF ADDER 3, maka overflow dari operasi bit kedua dapat ditangani oleh operasi bit ke 3.
 
-Secara teori, 8 HALF ADDER dapat menjumlahkan 2 variabel 8 bit (C_Word)
-16 HALF ADDER dapat menjumlahkan 2 variabel 16 bit (C_Short)
+Secara teori, 9 HALF ADDER dapat menjumlahkan 2 variabel 8 bit (C_Word)
+17 HALF ADDER dapat menjumlahkan 2 variabel 16 bit (C_Short)
 Dan Seterusnya.
 
+
+
+## Permasalahan 2
+Jelaskan perbedaan antara half adder dan full adder!
+
+Solusi:
+Seperti yang telah dipaparkan pada permasalahan 1, full adder adalah gabungan dari beberapa half adder, sehingga operasi penjumlahan dapat dilakukan pada variabel dengan lebih dari 1 bit tanpa overflow ( Terdapat 1 half adder yang mengendalikan _Most Significant_ bit yang mana nilai CARRY nya selalu 0).
+
+Untuk FULL ADDER operasi 1 bit, dibutuhkan 2 HALF ADDER
+Untuk FULL ADDER operasi 2 bit, dibutuhkan 3 HALF ADDER
+dan seterusnya.
+
+
+
+## Permasalahan 3
+Jelaskan perbedaan antara half subtractor dan full subtractor!
+
+Solusi:
+Seperti yang telah dipaparkan pada permasalahan 1, full substractor adalah gabungan dari beberapa half substractor, sehingga operasi pengurangan dapat dilakukan pada variabel dengan lebih dari 1 bit tanpa overflow ( Terdapat 1 half adder yang mengendalikan _Most Significant_ bit yang mana nilai BORROW nya selalu 0).
+
+Untuk FULL SUBSTRACTOR operasi 1 bit, dibutuhkan 2 HALF SUBSTRACTOR
+Untuk FULL SUBSTRACTOR operasi 2 bit, dibutuhkan 3 HALF SUBSTRACTOR
+dan seterusnya.
+
+
+
+## Permasalahan 4
 
 
 
