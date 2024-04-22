@@ -50,3 +50,39 @@ Untuk mengimplementasikan sistem input, kami hanya menggunakan _jumper wires_ ya
 
 Untuk mengimplementasikan output, kami menggunakan 3 lampu LED 3mm dengan ketiga pin negatifnya dihubungkan dengan satu resistor 1k ohm yang terhubung dengan ground. Lampu yang menyala (Paling atas menyala, 2 dibawahnya mati), mengindikasikan output bernilai 4 (100). Secara keseluruhan, kami berhasil membuat Full Adder 2 bit.
 
+Berikut adalah foto dari rangkaian yang telah kami buat:
+
+![2 Bit Full Adder Physical](https://github.com/pirel624/Dasar_Sistem_Digital/blob/eb52e204819a523d49be5769d872a6fd1f61289c/Ranngkaian_Fisik_2Bit_Full-Adder.png)
+
+
+
+
+
+## Permasalahan 4
+Soal Bonus
+
+
+
+## Permasalahan 5
+Jika anda tidak memiliki akses internet atau buku referensi. Bagaimana cara mendapat rangkaian full adder dan half adder.
+
+Solusi:
+Apabila saya tidak mendapatkan akses terhadap internet, yang pertama saya lakukan adalah membuat truth table dari semua kombinasi input dan output dari half adder dan full adder 1 bit. Ini dapat dilakukan secara realistik sebab _bus length_ dari kedua adder hanyalah 1 bit, sehingga Truth Table yang dihasilkan cukuplah kecil.
+
+Berikutnya, saya akan menggunakan Kernaugh Map untuk mendapatkan persamaan aljabar boolean sederhana untuk setiap output dan input dari setiap adder.
+
+Setelah mendapatkan persamaannya, saya akan mengimplementasikannya dengan 3 gerbang logika universal (AND, OR, dan NOT).
+
+Hasilnya adalah rangkaian Half Adder dan Full Adder. Dari ini saya dapat membuat rangkain ADDER n bit lengkap.
+
+
+
+## Permasalahan 6
+Berikan kesimpulan dari praktikum dalam bentuk poin-poin!
+
+Solusi:
+1. Truth Table dan Kernaugh Map dapat digunakan untuk merancang Half Adder seandainya akses terhadap internet diputus.
+2. Half Adder dapat digunakan untuk merancang Full Adder.
+3. Full Adder dapat digabungkan untuk menghasilkan Adder dengan berbagai ukuran _bus length_.
+
+
